@@ -1,5 +1,6 @@
 -> Objective
-The primary goal of this experiment is to extract text from a file stored in Google Drive and generate a concise summary using Cohere’s NLP model. The experiment integrates Google Drive API for data retrieval, LangChain for structured prompt generation, and Cohere API for text summarization.
+    The primary goal of this experiment is to extract text from a file stored in Google Drive and generate a concise summary using Cohere’s NLP model. The experiment integrates Google Drive API for data       
+    retrieval, LangChain for structured prompt generation, and Cohere API for text summarization.
 
 -> Overview
 This experiment demonstrates how Natural Language Processing (NLP) can be leveraged to automate the summarization of large text files stored on the cloud. The process involves authenticating with Google Drive, retrieving file content, formatting the text using prompt engineering, and then generating a summary using Cohere’s language model.
