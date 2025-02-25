@@ -51,8 +51,8 @@ prompt = PromptTemplate(
 )
 
 if __name__ == '__main__':
-    # Replace with your actual Google Drive file ID
-    FILE_ID = '16xKiK92UPVhXEc0SaCt4oYjAbitpGfRc'
+    # Ask user for Google Drive file ID
+    FILE_ID = input("Please enter the Google Drive file ID: ").strip()
     
     # Load text from Google Drive
     try:
